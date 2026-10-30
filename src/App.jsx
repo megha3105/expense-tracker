@@ -160,12 +160,7 @@ function App() {
 
       <section className="top-section">
         <div className="wallet-card">
-          <h2>
-            Wallet Balance: ${balance.toLocaleString("en-US", {
-              minimumFractionDigits: 2,
-              maximumFractionDigits: 2,
-            })}
-          </h2>
+          <h2>Wallet Balance: ${balance}</h2>
           <button type="button" onClick={() => setIncomeModal(true)}>
             + Add Income
           </button>
